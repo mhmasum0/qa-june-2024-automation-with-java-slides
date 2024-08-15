@@ -130,7 +130,7 @@ public class Main {
 layout: default
 ---
 # ELSE IF Statements Code Example
-```java
+```java {1-3,13-14|4|6-12|all}{lines: true}
 public class Main {
 
     public static void main(String[] args) {
@@ -168,9 +168,6 @@ switch (day) {
     break;
   case 3:
     System.out.println("Wednesday");
-    break;
-  case 7:
-    System.out.println("Sunday");
     break;
   default:
     System.out.println("Invalid day");

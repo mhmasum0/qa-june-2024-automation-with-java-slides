@@ -7,3 +7,5 @@
     - [PDF](./introduction-to-java/introduction-to-java.pdf)
 - [Java Operators and Control Statements](https://qajune2024-slides.mhmasum.com/java-operators-control-statements)
     - [PDF](./java-operators-control-statements/java-operators-control-statements.pdf)
+- [Java Loops](https://qajune2024-slides.mhmasum.com/java-loops)
+    - [PDF](./java-loops/java-loops.pdf)
