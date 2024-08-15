@@ -1,9 +1,9 @@
 ---
 theme: seriph
 background: https://cover.sli.dev
-title: Welcome to Slidev
+title: Java Loops | QAJune2024 Automation with Java
 info: |
-  ## Slidev Starter Template
+  ## Java Loops | QAJune2024 Automation with Java
 class: text-center
 drawings:
   persist: false
@@ -146,6 +146,92 @@ public class Main {
     }
 }
 ```
+---
+layout: two-cols
+---
+# While Loop
+- **Condition:** The loop continues until the condition is true.
+
+```java
+while (Condition) {
+    // Inner code block
+}
+```
+<img src="./images/while-loop-animation.gif">
+
+::right::
+
+<img width="250" src="./images/while-loop.png">
+
+---
+layout: default
+---
+# While Loop Example
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        int i = 0;
+        while (i < 5) {
+            System.out.println(i);
+            i++;
+        }
+    }
+}
+```
+
+# Infinite Loop Example
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        while (true) {
+            System.out.println("Infinite Loop");
+        }
+    }
+}
+```
+---
+layout: two-cols
+---
+
+# Do-While Loop
+
+> Do while loop is every similar to a while()-loop, the major difference is that the block inside the loop block will always run once, because the condition is checked after the code is ran.
+
+```java
+do {
+    // Inner code block
+} while (Condition);
+```
+
+```java {1-3,9-10|4|5-7|8|all}{lines: true}
+public class Main {
+
+    public static void main(String[] args) {
+        int i = 0;
+        do {
+            System.out.println(i);
+            i++;
+        } while (i < 5);
+    }
+}
+```
+
+::right::
+<br>
+<img width="430" src="./images/do-while.png">
+
+
+---
+layout: center
+class: text-center
+---
+# Difference between While and Do-While Loop
+
+<img width="300" src="./images/difference-while-do-while.png">
 
 ---
 src: ../../pages/common/end.md
