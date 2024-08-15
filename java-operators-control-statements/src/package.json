@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /java-operators-control-statements/ --out ../../dist/java-operators-control-statements",
+    "export": "slidev export --with-clicks --timeout 0 --output ../java-operators-control-statements.pdf"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.49.17",
+    "@slidev/theme-seriph": "^0.25.0"
+  },
+  "slidev": {
+    "addons": [
+      "../addons/mhmasum0"
+    ]
+  }
+}

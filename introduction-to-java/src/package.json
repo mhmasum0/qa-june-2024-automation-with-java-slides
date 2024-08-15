@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /introduction-to-java/ --out ../../dist/introduction-to-java",
+    "export": "slidev export --with-clicks --timeout 0 --output ../introduction-to-java.pdf"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.49.17",
+    "@slidev/theme-seriph": "^0.25.0"
+  },
+  "slidev": {
+    "addons": [
+      "../addons/mhmasum0"
+    ]
+  }
+}

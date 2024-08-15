@@ -1,0 +1,24 @@
+[build.environment]
+  NODE_VERSION = "18"
+  PLAYWRIGHT_BROWSERS_PATH = "0"
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/introduction-to-java/*"
+  to = "/introduction-to-java/index.html"
+  status = 200
+
+
+[[redirects]]
+  from = "/java-operators-control-statements/*"
+  to = "/java-operators-control-statements/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/"
+  to = "https://github.com/mhmasum0/qa-june-2024-automation-with-java-slides"
+  status = 302
+  force = true

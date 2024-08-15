@@ -1,0 +1,9 @@
+{
+  "installCommand": "npm install",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/introduction-to-java/(.*)", "destination": "/introduction-to-java/index.html" },
+    { "source": "/java-operators-control-statements/(.*)", "destination": "/java-operators-control-statements/index.html" },
+    { "source": "/(.*)", "destination": "/introduction-to-java/index.html" }
+  ]
+}
