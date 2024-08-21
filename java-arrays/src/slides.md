@@ -84,7 +84,7 @@ transition: slide-up
 
 <div class="w-full text-center">
 
-<div v-click="[1, 4]" v-motion
+<div v-click="[0, 3]" v-motion
   :initial="{ x: -50 }"
   :enter="{ x: 0 }"
   :leave="{ x: 50 }"
@@ -94,7 +94,7 @@ transition: slide-up
 
 </div>
 
-<div v-click="[2, 4]" v-motion
+<div v-click="[1, 3]" v-motion
   :initial="{ x: -50 }"
   :enter="{ x: 0 }"
   :leave="{ x: 50 }"
@@ -102,7 +102,7 @@ transition: slide-up
   <img class="mx-auto" src="./images/mango-2.png">
 </div>
 
-<div v-click="[3, 4]" v-motion
+<div v-click="[2, 3]" v-motion
   :initial="{ x: -50 }"
   :enter="{ x: 0 }"
   :leave="{ x: 50 }"
@@ -110,7 +110,7 @@ transition: slide-up
   <img class="mx-auto" src="./images/mango-3.png">
 </div>
 
-<div v-click="4" v-motion
+<div v-click="3" v-motion
   :initial="{ x: 0, y: 100 }"
   :enter="{ x: 0, y: -100 }"
   :leave="{ x: 50 }"
@@ -123,10 +123,10 @@ transition: slide-up
 layout: center
 ---
 # Arrays Memory Allocation
-Memory allocation for arrays is done in a continuous block of memory.
+> Memory allocation for arrays is done in a continuous block of memory.
 
+<br>
 <img src="./images/array-memory-management.svg" alt="Array memory allocation">
-
 
 <style>
 h1 {
@@ -143,6 +143,139 @@ img{
   padding-left: 15px;
 }
 </style>
+
+---
+layout: center
+---
+# Types of Arrays
+
+- Single Dimensional Array
+- Multi-Dimensional Array
+
+---
+layout: default
+---
+# Declaring an Array
+
+<v-clicks>
+
+- `dataType[] arr;`
+- `dataType arr[];`
+- `dataType arr[];`
+</v-clicks>
+<v-click>
+  <B> Suggested: </B> dataType[] arr;
+</v-click>
+
+# Instantiation of an Array in Java
+<v-clicks>
+
+- `dataType[] arr = new datatype[size];`
+- `int[] intArray = {48,5,4,5};`  <B>declaration, instantiation and initialization</B>
+
+</v-clicks>
+
+
+---
+layout: two-cols
+---
+# Code Example of Java Array
+
+```java
+class JavaArrayExample {
+    public static void main(String[] args) {
+        int[] intArray = new int[5];
+        intArray[0] = 10;
+        intArray[1] = 20;
+        intArray[2] = 30;
+        intArray[3] = 40;
+        intArray[4] = 50;
+        for (int i = 0; i < intArray.length; i++) {
+            System.out.println(intArray[i]);
+        }
+    }
+}
+```
+
+::right::
+
+```mermaid
+graph TD
+    A[Array Declaration] -->|"int a[]"| B[Array Initialization]
+    B -->|"new int[5]"| C[Memory Allocation]
+```
+
+---
+layout: default
+---
+# Code Example of Returning Array from Method
+
+```java
+class JavaArrayExample {
+    public static void main(String[] args) {
+        int[] intArray = getArray();
+        for (int i = 0; i < intArray.length; i++) {
+            System.out.println(intArray[i]);
+        }
+    }
+
+    public static int[] getArray() {
+        int[] intArray = new int[5];
+        intArray[0] = 10;
+        intArray[1] = 20;
+        intArray[2] = 30;
+        intArray[3] = 40;
+        intArray[4] = 50;
+        return intArray;
+    }
+}
+```
+
+---
+layout: default
+---
+# Java ArrayIndexOutOfBoundsException
+
+> An ArrayIndexOutOfBoundsException is thrown when you try to access an array element with an index that is either less than zero or greater than or equal to the length of the array.
+
+```java
+class JavaArrayExample {
+    public static void main(String[] args) {
+        int[] intArray = new int[5];
+        intArray[5] = 10;
+    }
+}
+```
+
+---
+layout: two-cols
+---
+# Code Example of Multi-Dimensional Array
+
+```java
+class JavaArrayExample {
+    public static void main(String[] args) {
+        int[][] intArray = new int[2][3];
+        intArray[0][0] = 10;
+        intArray[0][1] = 20;
+        intArray[0][2] = 30;
+        intArray[1][0] = 40;
+        intArray[1][1] = 50;
+        intArray[1][2] = 60;
+        for (int i = 0; i < intArray.length; i++) {
+            for (int j = 0; j < intArray[i].length; j++) {
+                System.out.println(intArray[i][j]);
+            }
+        }
+    }
+}
+```
+
+::right::
+
+<img src="./images/multi-array.png"/>
+
+
 ---
 src: ../../pages/common/end.md
 ---
