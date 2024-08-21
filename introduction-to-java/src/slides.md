@@ -11,6 +11,8 @@ drawings:
 transition: slide-left
 mdc: true
 hideInToc: true
+addons:
+  - ../addons/mhmasum0
 ---
 # Introduction to Java
 
@@ -27,7 +29,7 @@ layout: center
 ---
 # How to learn effectively
 - 📝 **Notes**: Take notes while learning
--  **Practice**: Practice what you learn
+- **Practice**: Practice what you learn
 - **Promodoro**: Use the Pomodoro technique
 
 ---

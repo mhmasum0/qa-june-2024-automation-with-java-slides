@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "slidev --open",
+    "dev": "slidev",
     "build": "slidev build --base /java-loops/ --out ../../dist/java-loops",
     "export": "slidev export --with-clicks --timeout 0 --output ../java-loops.pdf"
   },

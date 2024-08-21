@@ -2,14 +2,18 @@
 theme: seriph
 background: https://cover.sli.dev
 title: Java Loops | QAJune2024 Automation with Java
-info: |
-  ## Java Loops | QAJune2024 Automation with Java
+titleTemplate: '%s'
+info: | 
+  Java Loops | QAJune2024 Automation with Java
+author: Mahmudul Hasan Masum
 class: text-center
 drawings:
   persist: false
 transition: slide-left
 mdc: true
 hideInToc: true
+addons:
+  - ../addons/mhmasum0
 ---
 
 # Java Loops
