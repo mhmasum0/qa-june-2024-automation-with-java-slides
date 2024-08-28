@@ -11,3 +11,5 @@
     - [PDF](./java-loops/java-loops.pdf)
 - [Java Arrays](https://qajune2024-slides.mhmasum.com/java-arrays)
     - [PDF](./java-arrays/java-arrays.pdf)
+- [Java OOP Fundamentals](https://qajune2024-slides.mhmasum.com/java-oop-fundamentals)
+    - [PDF](./java-oop-fundamentals/java-oop-fundamentals.pdf)
