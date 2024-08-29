@@ -13,3 +13,5 @@
     - [PDF](./java-arrays/java-arrays.pdf)
 - [Java OOP Fundamentals](https://qajune2024-slides.mhmasum.com/java-oop-fundamentals)
     - [PDF](./java-oop-fundamentals/java-oop-fundamentals.pdf)
+- [Java OOP Inheritance and Encapsulation](https://qajune2024-slides.mhmasum.com/java-oop-inheritance-encapsulation)
+    - [PDF](./java-oop-inheritance-encapsulation/java-oop-inheritance-encapsulation.pdf)
