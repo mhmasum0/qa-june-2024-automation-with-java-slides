@@ -17,3 +17,5 @@
     - [PDF](./java-oop-inheritance-encapsulation/java-oop-inheritance-encapsulation.pdf)
 - [Java OOP Polymorphism, Method Overloading and Overriding](https://qajune2024-slides.mhmasum.com/java-oop-polymorphism-method-overloading-overriding)
     - [PDF](./java-oop-polymorphism-method-overloading-overriding/java-oop-polymorphism-method-overloading-overriding.pdf)
+- [Java OOP Abstraction](https://qajune2024-slides.mhmasum.com/java-oop-abstraction)
+    - [PDF](./java-oop-abstraction/java-oop-abstraction.pdf)
