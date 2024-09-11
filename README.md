@@ -19,3 +19,5 @@
     - [PDF](./java-oop-polymorphism-method-overloading-overriding/java-oop-polymorphism-method-overloading-overriding.pdf)
 - [Java OOP Abstraction](https://qajune2024-slides.mhmasum.com/java-oop-abstraction)
     - [PDF](./java-oop-abstraction/java-oop-abstraction.pdf)
+- [Java Package](https://qajune2024-slides.mhmasum.com/java-package)
+    - [PDF](./java-package/java-package.pdf)
