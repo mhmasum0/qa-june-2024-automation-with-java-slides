@@ -21,3 +21,5 @@
     - [PDF](./java-oop-abstraction/java-oop-abstraction.pdf)
 - [Java Package](https://qajune2024-slides.mhmasum.com/java-package)
     - [PDF](./java-package/java-package.pdf)
+- [Java Exception](https://qajune2024-slides.mhmasum.com/java-exception)
+    - [PDF](./java-exception/java-exception.pdf)
