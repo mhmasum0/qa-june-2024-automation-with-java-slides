@@ -225,14 +225,32 @@ throw new ArithmeticException("Arithmetic Exception");
 ```
 
 ```java
-public class AgeValidator {
-  // Method to validate age, throws IllegalArgumentException if age is invalid
-  public void validate(int age) throws InvalidAgeException {
-        if (age < 18) {
-            throw new InvalidAgeException("Age is not valid");
-        }
-    }
+// Custom exception class
+public class InvalidAgeException extends Exception {
+  public InvalidAgeException(String message) {
+    super(message);  // Passes the message to the Exception class constructor
+  }
 }
+
+public class AgeValidator {
+  // Method to validate age, throws InvalidAgeException if age is invalid
+  public void validate(int age) throws InvalidAgeException {
+    if (age < 18) {
+      throw new InvalidAgeException("Age is not valid. Must be 18 or older.");
+    }
+    System.out.println("Age is valid.");
+  }
+
+  public static void main(String[] args) {
+    AgeValidator validator = new AgeValidator();
+    try {
+      validator.validate(16);  // This will throw InvalidAgeException
+    } catch (InvalidAgeException e) {
+      System.out.println("Error: " + e.getMessage());
+    }
+  }
+}
+
 ```
 
 ---
