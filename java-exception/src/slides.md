@@ -214,6 +214,7 @@ public class FileOperations {
 
 ---
 layout: center
+zoom: 0.8
 ---
 
 # Java Throwing Exception
