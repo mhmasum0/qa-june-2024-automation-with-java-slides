@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <b :class="className ?? 'text-indigo-500'">
+  <b :class="className ?? 'text-green-500 bg-green-100 p-1'">
     <slot />
   </b>
 </template>
