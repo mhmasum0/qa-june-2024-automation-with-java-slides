@@ -23,3 +23,5 @@
     - [PDF](./java-package/java-package.pdf)
 - [Java Exception](https://qajune2024-slides.mhmasum.com/java-exception)
     - [PDF](./java-exception/java-exception.pdf)
+- [Java Collection](https://qajune2024-slides.mhmasum.com/java-collection)
+    - [PDF](./java-collection/java-collection.pdf)
