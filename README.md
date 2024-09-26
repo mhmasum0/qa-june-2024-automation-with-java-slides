@@ -27,5 +27,5 @@
     - [PDF](./java-collection/java-collection.pdf)
 - [Java Collection Example](https://qajune2024-slides.mhmasum.com/java-collection-example)
     - [PDF](./java-collection-example/java-collection-example.pdf)
-- [Introduction to Maven](https://qajune2024-slides.mhmasum.com/introduction-to-maven)
-    - [PDF](./introduction-to-maven/introduction-to-maven.pdf)
+- [Introduction to Maven](https://qajune2024-slides.mhmasum.com/qa-automation-intro-to-maven)
+    - [PDF](./qa-automation-intro-to-maven/qa-automation-intro-to-maven.pdf)
