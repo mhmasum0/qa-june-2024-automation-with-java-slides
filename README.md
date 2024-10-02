@@ -29,3 +29,5 @@
     - [PDF](./java-collection-example/java-collection-example.pdf)
 - [Introduction to Maven](https://qajune2024-slides.mhmasum.com/qa-automation-intro-to-maven)
     - [PDF](./qa-automation-intro-to-maven/qa-automation-intro-to-maven.pdf)
+- [Introduction to Selenium Webdriver](https://qajune2024-slides.mhmasum.com/qa-automation-intro-to-selenium-webdriver)
+    - [PDF](./qa-automation-intro-to-selenium-webdriver/qa-automation-intro-to-selenium-webdriver.pdf)
