@@ -139,7 +139,9 @@ layout: center
 
 # Collection Framework Hierarchy
 
-<img width="600" src="./images/collection-framework.png">
+<Transform :scale="1.25" origin="center top">
+  <img width="600" src="./images/collection-framework.png">
+</Transform>
 
 ---
 layout: center

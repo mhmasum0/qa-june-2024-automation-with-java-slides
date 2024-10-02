@@ -21,7 +21,7 @@ addons:
   - ../addons/mhmasum0
 ---
 
-# Java Collection
+# Java Collection Example
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -147,7 +147,6 @@ layout: center
 <C>ArrayList Constructors</C>
 1. `LinkedList l1 = new LinkedList();`
 2. `LinkedList l2 = new LinkedList(Collection c);`
-
 
 ---
 layout: center
@@ -278,6 +277,7 @@ public class EnumerationExample {
 
 ---
 layout: center
+zoom: 0.85
 ---
 
 # Iterator
@@ -316,6 +316,7 @@ public class IteratorExample {
 
 ---
 layout: center
+zoom: 0.85
 ---
 
 # ListIterator
