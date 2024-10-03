@@ -31,3 +31,5 @@
     - [PDF](./qa-automation-intro-to-maven/qa-automation-intro-to-maven.pdf)
 - [Introduction to Selenium Webdriver](https://qajune2024-slides.mhmasum.com/qa-automation-intro-to-selenium-webdriver)
     - [PDF](./qa-automation-intro-to-selenium-webdriver/qa-automation-intro-to-selenium-webdriver.pdf)
+- [Selenium WebDriver Locators](https://qajune2024-slides.mhmasum.com/qa-automation-locators)
+    - [PDF](./qa-automation-locators/qa-automation-locators.pdf)
