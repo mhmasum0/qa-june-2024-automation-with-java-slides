@@ -33,3 +33,5 @@
     - [PDF](./qa-automation-intro-to-selenium-webdriver/qa-automation-intro-to-selenium-webdriver.pdf)
 - [Selenium WebDriver Locators](https://qajune2024-slides.mhmasum.com/qa-automation-locators)
     - [PDF](./qa-automation-locators/qa-automation-locators.pdf)
+- [Selenium WebDriver CSS Selectors](https://qajune2024-slides.mhmasum.com/qa-automation-css-selectors)
+    - [PDF](./qa-automation-css-selectors/qa-automation-css-selectors.pdf)
