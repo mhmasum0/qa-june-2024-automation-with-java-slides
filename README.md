@@ -35,3 +35,5 @@
     - [PDF](./qa-automation-locators/qa-automation-locators.pdf)
 - [Selenium WebDriver CSS Selectors](https://qajune2024-slides.mhmasum.com/qa-automation-css-selectors)
     - [PDF](./qa-automation-css-selectors/qa-automation-css-selectors.pdf)
+- [Selenium WebDriver Select Dropdown](https://qajune2024-slides.mhmasum.com/qa-automation-select-dropdown)
+    - [PDF](./qa-automation-select-dropdown/qa-automation-select-dropdown.pdf)
