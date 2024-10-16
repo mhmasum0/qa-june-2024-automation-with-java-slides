@@ -37,3 +37,5 @@
     - [PDF](./qa-automation-css-selectors/qa-automation-css-selectors.pdf)
 - [Selenium WebDriver Select Dropdown](https://qajune2024-slides.mhmasum.com/qa-automation-select-dropdown)
     - [PDF](./qa-automation-select-dropdown/qa-automation-select-dropdown.pdf)
+- [Selenium WebDriver XPATH Axes](https://qajune2024-slides.mhmasum.com/qa-automation-xpath-axes)
+    - [PDF](./qa-automation-xpath-axes/qa-automation-xpath-axes.pdf)

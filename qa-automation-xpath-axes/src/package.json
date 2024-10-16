@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /qa-automation-xpath-axes --out ../../dist/qa-automation-xpath-axes",
+    "export": "slidev export --with-clicks --timeout 0 --output ../qa-automation-xpath-axes.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.24",
+    "@slidev/theme-seriph": "latest"
+  }
+}
