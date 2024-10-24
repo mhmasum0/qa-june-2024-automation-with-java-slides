@@ -41,3 +41,5 @@
     - [PDF](./qa-automation-xpath-axes/qa-automation-xpath-axes.pdf)
 - [Selenium WebDriver ScreenShots and String](https://qajune2024-slides.mhmasum.com/qa-automation-screenshot-string)
     - [PDF](./qa-automation-screenshot-string/qa-automation-screenshot-string.pdf)
+- [Selenium WebDriver Alert](https://qajune2024-slides.mhmasum.com/qa-automation-alert)
+    - [PDF](./qa-automation-alert/qa-automation-alert.pdf)
