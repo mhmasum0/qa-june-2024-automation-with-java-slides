@@ -41,5 +41,7 @@
     - [PDF](./qa-automation-xpath-axes/qa-automation-xpath-axes.pdf)
 - [Selenium WebDriver ScreenShots and String](https://qajune2024-slides.mhmasum.com/qa-automation-screenshot-string)
     - [PDF](./qa-automation-screenshot-string/qa-automation-screenshot-string.pdf)
-- [Selenium WebDriver Alert](https://qajune2024-slides.mhmasum.com/qa-automation-alert-iframe-window)
+- [Selenium WebDriver Alert, Iframe and Window](https://qajune2024-slides.mhmasum.com/qa-automation-alert-iframe-window)
     - [PDF](./qa-automation-alert-iframe-window/qa-automation-alert-iframe-window.pdf)
+- [Selenium WebDriver Wait](https://qajune2024-slides.mhmasum.com/qa-automation-waiting)
+    - [PDF](./qa-automation-waiting/qa-automation-waiting.pdf)
