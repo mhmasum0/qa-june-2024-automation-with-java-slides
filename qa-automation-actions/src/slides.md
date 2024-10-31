@@ -141,7 +141,7 @@ Documentation: [Jquery Draggable](https://jqueryui.com/draggable/)
 layout: center
 ---
 
-# Jquery - Draggable
+# Jquery - Droppable
 
 > Functionality: Designates elements as targets for draggable items.
 
@@ -293,11 +293,11 @@ layout: two-cols
 ```java
 Actions actions = new Actions(driver);
 actions.click(inputField)
-       .keyDown(Keys.CONTROL)
-       .sendKeys("a")
-       .keyUp(Keys.CONTROL)
-.build()
-       .perform();
+        .keyDown(Keys.CONTROL)
+        .sendKeys("a")
+        .keyUp(Keys.CONTROL)
+        .build()
+        .perform();
 ```
 
 
@@ -309,16 +309,16 @@ actions.click(inputField)
 ```java
 Actions actions = new Actions(driver);
 actions.click(inputField)
-       .keyDown(Keys.CONTROL)
-       .sendKeys("a")
-       .sendKeys("c")
-       .keyUp(Keys.CONTROL)
-       .sendKeys(Keys.TAB)
-       .keyDown(Keys.CONTROL)
-       .sendKeys("v")
-       .keyUp(Keys.CONTROL)
-.build()
-       .perform();
+        .keyDown(Keys.CONTROL)
+        .sendKeys("a")
+        .sendKeys("c")
+        .keyUp(Keys.CONTROL)
+        .sendKeys(Keys.TAB)
+        .keyDown(Keys.CONTROL)
+        .sendKeys("v")
+        .keyUp(Keys.CONTROL)
+        .build()
+        .perform();
 
 ```
 
