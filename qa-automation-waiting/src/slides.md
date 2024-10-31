@@ -223,5 +223,59 @@ class ExplicitWaitExample {
 ```
 
 ---
+layout: center
+---
+
+# Fluent Wait
+
+<B>Purpose:</B> FluentWait is used to wait for a condition with a customized timeout and polling interval. It also allows configuring what exceptions to ignore while waiting for the condition to be met.
+<br><B>Customization:</B> FluentWait provides several options to customize the wait:
+
+- Timeout: The maximum amount of time to wait for a condition.
+- Polling Interval: How often to check the condition.
+- Ignored Exceptions: Specify which exceptions to ignore during the wait period (e.g., NoSuchElementException).
+
+---
+layout: center
+---
+
+# Code Example: Fluent Wait
+
+```java
+
+import com.google.common.base.Function;
+
+class FluentWaitExample {
+    public static void main(String[] args) {
+        WebDriver driver = new ChromeDriver();
+        driver.get("http://seleniumpractise.blogspot.in/2016/08/how-to-use-explicit-wait-in-selenium.html");
+
+        driver.findElement(By.xpath("//button[text()='Click me to start timer']")).click();
+
+        Wait<WebDriver> wait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(30))
+                .pollingEvery(Duration.ofSeconds(2))
+                .ignoring(NoSuchElementException.class);
+
+        WebElement element = wait.until(new Function<WebDriver, WebElement>() {
+            public WebElement apply(WebDriver driver) {
+                WebElement ele = driver.findElement(By.xpath("//p[text()='WebDriver']"));
+                return ele;
+            }
+        });
+
+        boolean status = element.isDisplayed();
+
+        if (status) {
+            System.out.println("===== WebDriver is visible======");
+        } else {
+            System.out.println("===== WebDriver is not visible======");
+        }
+    }
+}
+```
+
+
+---
 src: ../../pages/common/end.md
 ---
