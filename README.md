@@ -45,3 +45,5 @@
     - [PDF](./qa-automation-alert-iframe-window/qa-automation-alert-iframe-window.pdf)
 - [Selenium WebDriver Wait](https://qajune2024-slides.mhmasum.com/qa-automation-waiting)
     - [PDF](./qa-automation-waiting/qa-automation-waiting.pdf)
+- [Selenium WebDriver Actions](https://qajune2024-slides.mhmasum.com/qa-automation-actions)
+    - [PDF](./qa-automation-actions/qa-automation-actions.pdf)
