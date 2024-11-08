@@ -47,3 +47,5 @@
     - [PDF](./qa-automation-waiting/qa-automation-waiting.pdf)
 - [Selenium WebDriver Actions](https://qajune2024-slides.mhmasum.com/qa-automation-actions)
     - [PDF](./qa-automation-actions/qa-automation-actions.pdf)
+- [Selenium WebDriver JavaScript Executor](https://qajune2024-slides.mhmasum.com/qa-automation-JSExecutor-elements)
+    - [PDF](./qa-automation-JSExecutor-elements/qa-automation-JSExecutor-elements.pdf)

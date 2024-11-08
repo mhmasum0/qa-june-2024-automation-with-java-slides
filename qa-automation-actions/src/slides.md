@@ -300,9 +300,6 @@ actions.click(inputField)
         .perform();
 ```
 
-
-
-
 ::right::
 <B> Copy-Paste Text</B>
 
@@ -330,7 +327,6 @@ actions.click(inputField)
 - Practical Use: Automating tasks like text input, selection, and copy-paste.
 
 Playground: [URL](https://the-internet.herokuapp.com/key_presses)
-
 
 ---
 layout: center
