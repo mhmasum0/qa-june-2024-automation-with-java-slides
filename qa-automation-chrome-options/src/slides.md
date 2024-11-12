@@ -102,13 +102,10 @@ class ChromeOptionsExample {
     // Add chrome switch to set browser language (here setting as Bangla)
     options.addArguments("--lang=en");
     
-    // Add chrome switch to disable infobar
-    options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+    // Add chrome switch to disable infobar and tooltips
+    options.setExperimentalOption("excludeSwitches",  Arrays.asList("enable-automation","disable-popup-blocking"));
     options.setExperimentalOption("useAutomationExtension", false);
-
-    // Add chrome switch to disable tooltips
-    options.addArguments("--disable-popup-blocking");
-
+    
     WebDriver driver = new ChromeDriver(options);
   }
 }
