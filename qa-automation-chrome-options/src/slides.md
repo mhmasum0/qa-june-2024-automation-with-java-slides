@@ -76,7 +76,8 @@ layout: center
 - To accept untrusted certificate
     - `options.setAcceptInsecureCerts(true);`
 - To Disable infobar
-    - `options.addArguments("disable-infobars");`
+    - `options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));`
+    - `options.setExperimentalOption("useAutomationExtension", false);`
 - For Headless Mode
     - `options.addArguments("--headless");`
     - `options.addArguments("--disable-gpu");`
@@ -100,6 +101,10 @@ class ChromeOptionsExample {
 
     // Add chrome switch to set browser language (here setting as Bangla)
     options.addArguments("--lang=en");
+    
+    // Add chrome switch to disable infobar
+    options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+    options.setExperimentalOption("useAutomationExtension", false);
 
     // Add chrome switch to disable tooltips
     options.addArguments("--disable-popup-blocking");
