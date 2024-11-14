@@ -51,3 +51,5 @@
     - [PDF](./qa-automation-JSExecutor-elements/qa-automation-JSExecutor-elements.pdf)
 - [Selenium WebDriver Chrome Options](https://qajune2024-slides.mhmasum.com/qa-automation-chrome-options)
     - [PDF](./qa-automation-chrome-options/qa-automation-chrome-options.pdf)
+- [Selenium WebDriver TestNG Framework Fundamentals](https://qajune2024-slides.mhmasum.com/qa-automation-testng-framework-fundamentals)
+    - [PDF](./qa-automation-testng-framework-fundamentals/qa-automation-testng-framework-fundamentals.pdf)

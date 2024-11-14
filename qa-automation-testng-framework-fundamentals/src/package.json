@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /qa-automation-testng-framework-fundamentals --out ../../dist/qa-automation-testng-framework-fundamentals",
+    "export": "slidev export --with-clicks --timeout 0 --output ../qa-automation-testng-framework-fundamentals.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.24",
+    "@slidev/theme-seriph": "latest"
+  }
+}
