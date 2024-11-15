@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /qa-automation-testng-data-driven-testing --out ../../dist/qa-automation-testng-data-driven-testing",
+    "export": "slidev export --with-clicks --timeout 0 --output ../qa-automation-testng-data-driven-testing.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.24",
+    "@slidev/theme-seriph": "latest"
+  }
+}
