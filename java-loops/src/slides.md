@@ -238,5 +238,32 @@ class: text-center
 <img width="300" src="./images/difference-while-do-while.png">
 
 ---
+layout: center
+---
+
+# Java for-each Loop
+
+Syntax:
+
+```java
+for(dataType item : array) {
+    ...
+}
+```
+
+- array - an array or a collection
+- item - each item of array/collection is assigned to this variable
+- dataType - the data type of the array/collection
+
+## Example
+
+```java
+int[] numbers = {1, 2, 3, 4, 5};
+for(int number : numbers) {
+    System.out.println(number);
+}
+```
+
+---
 src: ../../pages/common/end.md
 ---

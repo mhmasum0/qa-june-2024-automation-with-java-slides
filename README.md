@@ -55,3 +55,5 @@
     - [PDF](./qa-automation-testng-framework-fundamentals/qa-automation-testng-framework-fundamentals.pdf)
 - [TestNG Data Driven Testing](https://qajune2024-slides.mhmasum.com/qa-automation-testng-data-driven-testing)
     - [PDF](./qa-automation-testng-data-driven-testing/qa-automation-testng-data-driven-testing.pdf)
+- [Log4J](https://qajune2024-slides.mhmasum.com/qa-automation-log4j)
+    - [PDF](./qa-automation-log4j/qa-automation-log4j.pdf)
