@@ -97,7 +97,7 @@ layout: center
 - Given: Sets up the initial state. 
 - When: TDescribes an action. 
 - Then: Describes an expected outcome. 
-- And, But: Additional steps.
+- And: Additional steps.
 
 ---
 layout: center
@@ -112,6 +112,20 @@ Feature: Login Functionality
         When User enters valid username
         And User enters valid password
         Then User should be logged in successfully
+```
+```gherkin
+Feature: User Login
+    Scenario Outline: Login with multiple credentials
+        Given User is on the login page
+        When User enters "<username>" and "<password>"
+        Then User should see "<result>"
+
+    Examples:
+        | username   | password | result                 |
+        | user1      | pass123  | Welcome message        |
+        | user2      | wrongpwd | Error: Invalid password |
+        | invalidusr | pass123  | Error: Invalid username |
+
 ```
 
 ---
