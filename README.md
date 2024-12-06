@@ -59,3 +59,5 @@
     - [PDF](./qa-automation-log4j/qa-automation-log4j.pdf)
 - [Page Object Model](https://qajune2024-slides.mhmasum.com/qa-automation-page-object-model)
     - [PDF](./qa-automation-page-object-model/qa-automation-page-object-model.pdf)
+- [Cucumber BDD Framework](https://qajune2024-slides.mhmasum.com/qa-automation-bdd-cucumber)
+    - [PDF](./qa-automation-bdd-cucumber/qa-automation-bdd-cucumber.pdf)
