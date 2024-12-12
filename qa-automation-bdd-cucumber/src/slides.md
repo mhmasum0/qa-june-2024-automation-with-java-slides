@@ -153,5 +153,103 @@ layout: center
 - **Run Tests:** Use Cucumber to execute the tests and validate behavior.
 
 ---
+layout: center
+---
+
+# Add Cucumber Dependencies
+
+
+Link to the [Cucumber Java](https://mvnrepository.com/artifact/io.cucumber/cucumber-java) and [Cucumber TestNG](https://mvnrepository.com/artifact/io.cucumber/cucumber-testng) dependencies.
+
+Add the following dependencies to your `pom.xml` file for Maven projects:
+
+```xml
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.20.1</version>
+</dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.20.1</version>
+</dependency>
+```
+
+---
+layout: center
+---
+
+# Create Feature Files
+
+Create feature files with `.feature` extension using Gherkin syntax in the `src/test/resources/features` directory.
+
+```gherkin
+Feature: Login to SWAG Labs
+    Scenario: Login with valid credentials
+        Given User is on the login page
+        When User enters username "standard_user" and password as "secret_sauce"
+        Then User should be logged in successfully
+```
+<br><HL>Feature files for multiple data sets can use Scenario Outline and Examples.</HL>
+```gherkin
+Feature: Login to SWAG Labs
+    Scenario Outline: Login with multiple credentials
+        Given User is on the login page
+        When User enters "<username>" and "<password>"
+        Then User should see "<result>"
+
+    Examples:
+        | username              | password      | result       |
+        | standard_user         | secret_sauce  | Products     |
+        | locked_out_user       | secret_sauce  | Products     |
+```
+
+---
+layout: center
+---
+
+# Implement Step Definitions
+
+Create step definition classes to map Gherkin steps to Java code. These classes should be in the `src/test/java/stepdefinitions` package.
+
+```java
+class LoginPageDefinitions {
+    @Given("User is on the login page")
+    public void userIsOnLoginPage() {
+        // Code to navigate to the login page
+    }
+
+    @When("User enters username {string} and password as {string}")
+    public void userEntersCredentials(String username, String password) {
+        // Code to enter username and password
+    }
+
+    @Then("User should be logged in successfully")
+    public void userShouldBeLoggedIn() {
+        // Code to verify successful login
+    }
+}
+```
+
+---
+layout: center
+---
+
+# Run Cucumber Tests
+
+Create a test runner class to execute the Cucumber tests. This class should be in the `src/test/java/runners` package.
+
+```java
+@CucumberOptions(features = "src/test/resources/features",
+                 glue = "stepdefinitions",
+                 plugin = {})
+public class CucumberRunnerTests extends AbstractTestNGCucumberTests {
+    
+}
+```
+
+
+---
 src: ../../pages/common/end.md
 ---
