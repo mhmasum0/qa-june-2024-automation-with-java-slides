@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /postman-api-testing --out ../../dist/postman-api-testing",
+    "export": "slidev export --with-clicks --timeout 0 --output ../postman-api-testing.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.24",
+    "@slidev/theme-seriph": "latest"
+  }
+}
