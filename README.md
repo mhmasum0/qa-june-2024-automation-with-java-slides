@@ -61,5 +61,5 @@
     - [PDF](./qa-automation-page-object-model/qa-automation-page-object-model.pdf)
 - [Cucumber BDD Framework](https://qajune2024-slides.mhmasum.com/qa-automation-bdd-cucumber)
     - [PDF](./qa-automation-bdd-cucumber/qa-automation-bdd-cucumber.pdf)
-- [Postman API Testing](https://qajune2024-slides.mhmasum.com/qa-automation-postman-api-testing)
-    - [PDF](./postman-api-testing/postman-api-testing.pdf)
+  - [Postman API Testing](https://qajune2024-slides.mhmasum.com/postman-api-testing)
+      - [PDF](./postman-api-testing/postman-api-testing.pdf)
