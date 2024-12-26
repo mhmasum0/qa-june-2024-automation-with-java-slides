@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /qa-automation-rest-assured --out ../../dist/qa-automation-rest-assured",
+    "export": "slidev export --with-clicks --timeout 0 --output ../qa-automation-rest-assured.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.24",
+    "@slidev/theme-seriph": "latest"
+  }
+}
