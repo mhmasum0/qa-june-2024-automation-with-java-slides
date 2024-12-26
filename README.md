@@ -63,5 +63,5 @@
     - [PDF](./qa-automation-bdd-cucumber/qa-automation-bdd-cucumber.pdf)
 - [Postman API Testing](https://qajune2024-slides.mhmasum.com/postman-api-testing)
     - [PDF](./postman-api-testing/postman-api-testing.pdf)
-- [Rest Assured](https://qajune2024-slides.mhmasum.com/qajune2024-automation-rest-assured)
+- [Rest Assured](https://qajune2024-slides.mhmasum.com/qa-automation-rest-assured)
     - [PDF](./qa-automation-rest-assured/qa-automation-rest-assured.pdf)
