@@ -164,6 +164,15 @@ class RestAssuredExample3 {
 }
 ```
 
+---
+layout: center
+---
+
+# Resources
+
+- [Rest Assured Wiki](https://github.com/rest-assured/rest-assured/wiki/Usage)
+- [JSONPath Finder](https://jsonpathfinder.com/)
+- [JSONPath](https://jsonpath.com/)
 
 ---
 src: ../../pages/common/end.md
