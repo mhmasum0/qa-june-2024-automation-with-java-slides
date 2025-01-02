@@ -65,3 +65,5 @@
     - [PDF](./postman-api-testing/postman-api-testing.pdf)
 - [Rest Assured](https://qajune2024-slides.mhmasum.com/qa-automation-rest-assured)
     - [PDF](./qa-automation-rest-assured/qa-automation-rest-assured.pdf)
+- [Version Control with Git](https://qajune2024-slides.mhmasum.com/version-control-with-git)
+    - [PDF](./version-control-with-git/version-control-with-git.pdf)

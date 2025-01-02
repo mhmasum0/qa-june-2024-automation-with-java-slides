@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /version-control-with-git --out ../../dist/version-control-with-git",
+    "export": "slidev export --with-clicks --timeout 0 --output ../version-control-with-git.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.24",
+    "@slidev/theme-seriph": "latest"
+  }
+}
