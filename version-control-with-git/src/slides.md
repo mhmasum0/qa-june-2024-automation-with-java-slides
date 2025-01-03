@@ -168,5 +168,63 @@ layout: center
 Cheatsheet: [Atlassian Git Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 
 ---
+layout: center
+---
+
+# Git Ignore
+
+> Create a `.gitignore` file to exclude files and directories from being tracked by Git.
+
+---
+layout: center
+---
+
+# Git != GitHub
+
+> Git is a version control system, while GitHub is a remote repository hosting service.
+
+---
+layout: center
+---
+
+# Create a GitHub Repository
+
+- Create a new repository on GitHub
+- `git remote add origin <repository-url>` to add a remote repository
+- `git remote -v` to verify the remote repository
+- `git push -u origin main` to push changes to the remote repository
+
+---
+layout: center
+---
+# Set Up SSH Key to GitHub
+
+- Generate a new SSH key
+- `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+- Add the SSH public key to GitHub from `~/.ssh/id_rsa.pub` or `/c/Users/username/.ssh/id_rsa.pub` file
+
+---
+layout: center
+---
+
+# Git Branching
+
+> Branching allows you to work on different features or bug fixes without affecting the main codebase.
+
+- `git branch` to list branches
+- `git branch <branch>` to create a new branch
+- `git checkout <branch>` to switch branches
+- `git merge <branch>` to merge branches
+
+---
+layout: center
+---
+
+# Collaborate on GitHub
+
+
+
+
+---
 src: ../../pages/common/end.md
 ---
