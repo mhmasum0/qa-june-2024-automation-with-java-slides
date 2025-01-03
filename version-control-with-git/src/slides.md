@@ -222,6 +222,13 @@ layout: center
 
 # Collaborate on GitHub
 
+---
+layout: center
+---
+
+# Resources
+
+- [Git Bookdown](https://gitbookdown.dallasdatascience.com/index.html)
 
 
 
