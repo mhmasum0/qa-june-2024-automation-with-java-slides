@@ -59,7 +59,6 @@ layout: center
 | The data is independent of the information             | Information is dependent on data                                                | 
 | Data or raw data is not enough to make a decision      | The information is sufficient to help make a decision in the respective context | 
 
-
 ---
 layout: center
 ---
