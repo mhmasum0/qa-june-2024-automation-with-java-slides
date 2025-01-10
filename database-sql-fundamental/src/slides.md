@@ -208,9 +208,26 @@ layout: center
 
 ```sql
 INSERT INTO students (id, name, class, section, fees, house) VALUES
-(101, 'Alice', 10, 'A', 5000, 'Red'),
-(102, 'Bob', 11, 'B', 6000, 'Blue'),
-(103, 'Charlie', 12, 'C', 7000, 'Green');
+ (101, 'Alice', 10, 'A', 5000, 'Red'),
+ (102, 'Bob', 11, 'B', 6000, 'Blue'),
+ (103, 'Charlie', 12, 'C', 7000, 'Green'),
+ (104, 'David', 10, 'A', 5500, 'Yellow'),
+ (105, 'Emma', 11, 'B', 5000, 'Red'),
+ (106, 'Fiona', 10, 'C', 6200, 'Green'),
+ (107, 'George', 12, 'A', 6500, 'Blue'),
+ (108, 'Hannah', 11, 'C', 7000, 'Red'),
+ (109, 'Ivy', 12, 'B', 6000, 'Yellow'),
+ (110, 'Jack', 10, 'B', 5800, 'Green'),
+ (111, 'Kara', 11, 'A', 5500, 'Blue'),
+ (112, 'Liam', 12, 'C', 7500, 'Red'),
+ (113, 'Mason', 10, 'A', 5000, 'Yellow'),
+ (114, 'Nora', 11, 'B', 5300, 'Green'),
+ (115, 'Oscar', 12, 'C', 6400, 'Blue'),
+ (116, 'Paula', 10, 'B', 5100, 'Red'),
+ (117, 'Quinn', 11, 'A', 7000, 'Yellow'),
+ (118, 'Rachel', 12, 'B', 6900, 'Green'),
+ (119, 'Steve', 10, 'C', 4800, 'Blue'),
+ (120, 'Tina', 11, 'A', 5600, 'Red');
 ```
 
 # Rename a Table and Drop a Table
@@ -249,6 +266,236 @@ This query selects all columns from the students table where the class is 10.<br
 SELECT * FROM students WHERE class = 10 AND section = 'A';
 ```
 This query selects all columns from the students table where the class is 10 and the section is 'A'.<br>
+
+---
+layout: center
+---
+
+# Select Query
+
+<B> Example 5: Select with OR Operator</B>
+```sql
+SELECT * FROM students WHERE class = 12 OR fees > 2500;
+```
+This query selects all columns from the students table where the class is 12 or the fees are greater than 2500.
+
+
+<B> Example 6: Select with ORDER BY</B>
+```sql
+SELECT * FROM students ORDER BY fees DESC;
+```
+This query selects all columns from the students table and orders the result by the fees column in descending order.
+
+<B> Example 7: Select with DISTINCT Clause</B>
+```sql
+SELECT DISTINCT Class FROM students;
+```
+This query selects all distinct values from the class column in students table.<br>
+
+<B> Example 8: Select with LIMIT Clause</B>
+```sql
+SELECT * FROM students LIMIT 5;
+```
+This query selects all columns from the students table and limits the result to the first 5 rows.
+
+---
+layout: center
+---
+
+# More Select Query
+
+<B> Example 9: Select with GROUP BY Clause</B>
+```sql
+SELECT class, AVG(fees) FROM students GROUP BY class;
+```
+This query selects the class and the average fees from the students table, grouped by the class column.
+
+<B> Example 10: Select with HAVING Clause</B>
+```sql
+SELECT class, AVG(fees) FROM students GROUP BY class HAVING AVG(fees) > 2500;
+```
+This query selects the class and the average fees from the students table, grouped by the class column, and filters the result to only include groups where the average fees are greater than 2500.
+
+---
+layout: center
+---
+
+# Update and Delete Data
+
+<B> Update Query</B>
+```sql
+UPDATE students SET fees = 3000 WHERE name = 'Anu Jain';
+```
+This query updates the fees column in the students table to 3000 where the name is 'Anu Jain'.
+
+<B> Delete Query</B>
+```sql
+DELETE FROM students WHERE name = 'Mohit Sharma';
+```
+This query deletes the record from the students table where the name is 'Mohit Sharma'.
+
+---
+layout: center
+---
+
+# Database Testing
+
+<HL>Purpose of Database Testing:</HL>
+
+- To ensure that the database operates correctly and efficiently.
+- To verify data integrity, data consistency, and data accuracy.
+- To ensure that CRUD operations (Create, Read, Update, Delete) work as expected.
+- To check for performance issues like indexing and query optimization.
+
+---
+layout: center
+---
+
+# Key Aspects of Database Testing
+
+- <HL className="text-rose-700">Schema Testing:</HL> Verifying that the database schema (tables, columns, indexes, etc.) is set up correctly.
+- <HL className="text-rose-700">Data Integrity Testing:</HL> Ensuring that data remains consistent and accurate across operations.
+- <HL className="text-rose-700">Performance Testing:</HL> Checking how the database performs under load.
+- <HL className="text-rose-700">Security Testing:</HL> Ensuring that the database is secure from unauthorized access and vulnerabilities.
+
+---
+layout: center
+---
+
+# Adding Dependency
+
+
+Link: [https://mvnrepository.com/artifact/com.mysql/mysql-connector-j](https://mvnrepository.com/artifact/com.mysql/mysql-connector-j)
+```xml
+<dependency>
+    <groupId>com.mysql</groupId>
+    <artifactId>mysql-connector-j</artifactId>
+    <version>9.1.0</version>
+</dependency>
+```
+
+---
+layout: center
+---
+
+# Database Connection
+
+```java
+Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/nexxvali", "root","");
+System.out.println("Connected to MySQL Database");
+
+Statement statement = connection.createStatement();
+System.out.println("Statement created");
+```
+
+---
+layout: center
+---
+
+# Execute SQL Query
+
+```java
+Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/nexxvali", "root","");
+System.out.println("Connected to MySQL Database");
+
+Statement smt = connection.createStatement();
+System.out.println("Statement created");
+
+ResultSet rs=smt.executeQuery("select * from students");
+int id;
+String name;
+while (rs.next()) {
+    id = rs.getInt("id");
+    name = rs.getString("name").trim();
+    System.out.println("ID : " + id + " Name : " + name);
+}
+rs.close();
+smt.close();
+connection.close();
+```
+
+---
+layout: center
+--- 
+
+# Update Query
+
+<B> Update Query</B>
+```java
+String updateQuery = "UPDATE students SET fees = 3000 WHERE name = 'Alice'";
+int rowsAffected = smt.executeUpdate(updateQuery);
+System.out.println("Rows Affected: " + rowsAffected);
+```
+
+---
+layout: center
+---
+
+# Database Testing with TestNG
+
+```java
+public class DatabaseTest {
+    Connection connection;
+    Statement statement;
+
+    @BeforeTest
+    public void setup() throws SQLException {
+        try {
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/nexxvali", "root", "");
+            // Create statement
+            statement = connection.createStatement();
+        } catch (Exception e) {
+            e.printStackTrace();
+            Assert.fail("Database connection setup failed!");
+        }
+    }
+
+    @AfterClass
+    public void tearDown() {
+        try {
+            if (statement != null) statement.close();
+            if (connection != null) connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+---
+layout: center
+---
+
+# Database Testing with TestNG : Example
+
+```java
+@Test(priority = 1)
+public void testInsert() {
+    try {
+        String query = "INSERT INTO students (id, name, class) VALUES (501, 'TestUser', 10)";
+        int rowsInserted = statement.executeUpdate(query);
+        Assert.assertEquals(rowsInserted, 1, "Insert operation failed!");
+    } catch (SQLException e) {
+        e.printStackTrace();
+        Assert.fail("Insert query execution failed!");
+    }
+}
+@Test(priority = 2, dependsOnMethods = "testInsert")
+public void testSelect() {
+    try {
+        String query = "SELECT * FROM students WHERE id = 501";
+        ResultSet resultSet = statement.executeQuery(query);
+        Assert.assertTrue(resultSet.next(), "Record not found after insert!");
+        Assert.assertEquals(resultSet.getString("name").trim(), "TestUser", "Name mismatch!");
+        Assert.assertEquals(resultSet.getInt("class"), 10, "Class mismatch!");
+        resultSet.close();
+    } catch (SQLException e) {
+        e.printStackTrace();
+        Assert.fail("Select query execution failed!");
+    }
+}
+```
+
 
 
 ---
