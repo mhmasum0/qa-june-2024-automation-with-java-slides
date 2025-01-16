@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /mobile-app-testing-with-appium --out ../../dist/mobile-app-testing-with-appium",
+    "export": "slidev export --with-clicks --timeout 0 --output ../mobile-app-testing-with-appium.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.24",
+    "@slidev/theme-seriph": "latest"
+  }
+}
