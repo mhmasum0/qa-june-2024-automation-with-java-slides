@@ -69,3 +69,5 @@
     - [PDF](./version-control-with-git/version-control-with-git.pdf)
 - [Database and SQL Fundamental](https://qajune2024-slides.mhmasum.com/database-sql-fundamental)
     - [PDF](./database-sql-fundamental/database-sql-fundamental.pdf)
+- [Mobile App Testing with Appium](https://qajune2024-slides.mhmasum.com/mobile-app-testing-with-appium)
+    - [PDF](./mobile-app-testing-with-appium/mobile-app-testing-with-appium.pdf)
