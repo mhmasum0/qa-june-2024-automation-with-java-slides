@@ -140,13 +140,6 @@ AndroidDriver androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723/"
 ```
 
 
-
----
-layout: center
----
-
-
-
 ---
 src: ../../pages/common/end.md
 ---
