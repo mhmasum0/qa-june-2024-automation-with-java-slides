@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /qa-automation-test-reporting --out ../../dist/qa-automation-test-reporting",
+    "export": "slidev export --with-clicks --timeout 0 --output ../qa-automation-test-reporting.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.24",
+    "@slidev/theme-seriph": "latest"
+  }
+}

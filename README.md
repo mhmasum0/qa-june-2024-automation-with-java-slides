@@ -71,3 +71,5 @@
     - [PDF](./database-sql-fundamental/database-sql-fundamental.pdf)
 - [Mobile App Testing with Appium](https://qajune2024-slides.mhmasum.com/mobile-app-testing-with-appium)
     - [PDF](./mobile-app-testing-with-appium/mobile-app-testing-with-appium.pdf)
+- [QA Automation Test Reporting](https://qajune2024-slides.mhmasum.com/qa-automation-test-reporting)
+    - [PDF](./qa-automation-test-reporting/qa-automation-test-reporting.pdf)
