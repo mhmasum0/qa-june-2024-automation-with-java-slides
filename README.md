@@ -73,3 +73,5 @@
     - [PDF](./mobile-app-testing-with-appium/mobile-app-testing-with-appium.pdf)
 - [QA Automation Test Reporting](https://qajune2024-slides.mhmasum.com/qa-automation-test-reporting)
     - [PDF](./qa-automation-test-reporting/qa-automation-test-reporting.pdf)
+- [Qa Automation Jenkins](https://qajune2024-slides.mhmasum.com/qa-automation-jenkins)
+    - [PDF](./qa-automation-jenkins/qa-automation-jenkins.pdf)
